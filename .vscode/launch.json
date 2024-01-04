@@ -5,11 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Module",
+            "name": "Python: Run Module",
             "type": "python",
             "request": "launch",
-            "module": "main",
-            "justMyCode": true
+            "module": "stack.main",
+            "console": "integratedTerminal"
         }
     ]
 }
