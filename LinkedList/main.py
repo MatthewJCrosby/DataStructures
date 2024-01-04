@@ -101,7 +101,7 @@ if __name__ == "__main__":
 
     nodes = []
     for node in myLL:
-        nodes.append(node.val)
+        print(node.val)
     print(nodes)
 
     myLL.deleteFromBack()
@@ -112,5 +112,5 @@ if __name__ == "__main__":
     #print nodes
     nodes = []
     for node in myLL:
-        nodes.append(node.val)
-    print(nodes)
+        print(node.val)
+ 
